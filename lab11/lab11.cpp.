@@ -1,0 +1,8 @@
+// The program chooses a random number out of a set of two integers. 
+// User enters a number from inbetween said numbers above.
+//if the number the user chooses a number lower than the random number it tells the user "sorry the number is higher"
+//if the number the user chooses a number higer than the random number it tells the user "sorry the number is lower"
+//if the user guesses wrong 10 times then it tells the user " sorry you took too many tries you loose"
+//if the user guesses the number right within 10 times then it tells the user "congrats that is right"
+
+
