@@ -2,14 +2,16 @@
  Enrique Chavez 
  CSCI 20 
  Feb 16, 2017
+ 1.6 Lab - Objects
  
+ this program lets user input 2 monsters
 */
 
 #include <iostream>
 #include <string>     //need this to be able to use the strings
 using namespace std;
 
-struct Plan{
+struct Plan{           // struct lets the the variables be used more than once 
     string head;
     string eyes;
     string ears;
