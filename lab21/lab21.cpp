@@ -4,7 +4,7 @@
  Feb 16, 2017
  2.1 Lab - Calling Functions
  
- this program will use 
+ this program shows wind chill and calculates it using the new and old formula and shows the diffrence 
 */
 #include <iostream>
 #include <cmath> // will lwt me use a numerous amount of new math functions 
