@@ -15,7 +15,7 @@ using namespace std;
  
  void RandomNumber (){
      
-       cout <<  rand() % 10 + 1 << "."<< endl;  
+       cout <<  rand() % 100 + 1 << "."<< endl;  
  }
  
  int main() {
