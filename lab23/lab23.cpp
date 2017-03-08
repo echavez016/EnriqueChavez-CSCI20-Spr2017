@@ -13,16 +13,16 @@
 #include <ctime>  //needed to make random # 
 using namespace std;
  
- void RandomNumber (int largeNum, int smallNum){ 
+ void RandomNumber (int largeNum, int smallNum, int x){ 
  
-   int randNum = rand() % largeNum + 1;
+   int randNum = rand() % (smallNum + x) + 1;
  
    cout << randNum;
  
   return;
  }
 
-void swap(int largeNum, int smallNum, int x){
+void swap(int largeNum, int smallNum, int& x){
   
   x = smallNum;
   smallNum = largeNum;
@@ -33,14 +33,14 @@ void swap(int largeNum, int smallNum, int x){
 
  
  int main() {
-   int largeNum, smallNum; 
+   int largeNum, smallNum, x; 
    
   cout<<"enter number one (smallest)";
    cin >> smallNum;
    cout<<"enter number two (largest)"; 
    cin >> largeNum;
    
-  RandomNumber (smallNum, largeNum);
+  RandomNumber (smallNum, largeNum, x);
   
    
 
