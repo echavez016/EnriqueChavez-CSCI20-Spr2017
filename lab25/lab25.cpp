@@ -1,3 +1,11 @@
+/*
+ Enrique Chavez 
+ CSCI 20 
+ March 7, 2017
+ 2.5 Lab - Classes & Mutator Functions
+ 
+ 
+*/
 #include <iostream>
 #include <string> 
 using namespace std;
