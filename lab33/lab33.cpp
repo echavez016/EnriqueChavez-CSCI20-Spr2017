@@ -27,33 +27,51 @@ int main() {
     srand (time(NULL)); 
     int personsGuess;
     int ranNum;
+    int timesPlayed; 
     
     ranNum = rand() % 50 + 1;     // random numbers in the range 1 to 50 
     
      cout<<" Welcome to The Random Number Generator Game!"<<endl;
       cout<<"You choose a number between 1-50"<<endl;
+     
     do {
+        
+        for (ranNum != personsGuess; timesPlayed = timesPlayed + 1;){    
        
         cin>>personsGuess; 
             if ( personsGuess >=1 && personsGuess <= 50 ){
+                
                 if (personsGuess == ranNum){
                     cout<<"Thats right!"<<endl;
-                    cout<<"You Won! This program is over."<<endl;
+                    cout<<"You Won!"<<endl;
+                     cout<<"you attempted " << timesPlayed<< " time(s)."<<endl; 
                     
                 }
+                
                     else if (personsGuess < ranNum){
                           cout<<"Thats too low try again"<<endl;
                     }
+                    
                         else if (personsGuess > ranNum){
                             cout<<"Thats too high try again"<<endl;
                         }
+                        
             }
             else {
                 cout<<"You did not enter a number between 1 and 50 try again"<<endl;
             }
+            
+         
+       
+         
+        
+        }
+       
+       
+        
     } while (ranNum != personsGuess);
      
-     
+    
      
 
      return 0;  
