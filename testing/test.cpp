@@ -6,8 +6,15 @@ using namespace std;
   
   int main () {
 
-string myString = "my test string";
-myString[14] = '!';
-cout<<myString<<endl;
+double x = 5.5;
+double y = 7.7;
+
+
+swap(x,y);
+//x = y;
+//y = x;
+
+cout<<x <<endl;
+cout<< y<<endl;
     return 0; 
     }
