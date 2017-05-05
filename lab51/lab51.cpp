@@ -10,8 +10,8 @@ output example:
 Please enter a 10 letter word or less
 ana
 your word is 
-ana
-an
+ana    
+an       ! Question: Is this suposed to put put that an instead of ana was i suposed to fix that somewhere? !
 It is a palindrome!
 
 
