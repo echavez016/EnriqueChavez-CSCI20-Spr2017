@@ -43,7 +43,7 @@ int MyClass::GetNumber(){
 
 int randomNumber(){
    srand(time(0));
-   return ((rand()% 10) + 1);
+   return (rand()% 10) + 1);
 }
 
 // Program starts here
